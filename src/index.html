@@ -22,8 +22,9 @@
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
     <meta
       name="keywords"
-      content="Pocoyo, Pocyo, Noa, skill, developper, portfolio"
+      content="Pocoyo, Pocyo, Noa, skill, developper, portfolio, javascript, js, java, dart, python, csharp"
     />
+
     <!-- Todo: improve your SEO by adding a small description of you -->
     <meta name="description" content="Noa (Pocoyo) | Developer" />
 
@@ -32,7 +33,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
-    <link rel="stylesheet" href="skills.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <script
       defer
@@ -115,127 +115,114 @@
     <!-- /END About Section -->
 
     <!-- **** Skills 1 Section **** -->
-    <!--<section>
+    <section id="skills">
       <h2 class="section-title load-hidden">My skills</h2>
-      <div class="skill_container">
-        <div class="card">
-          <h3 class="title">Javascript</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbarjs"></div>
-          </div>
-          <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle class="stroke" cx="60" cy="60" r="50" />
-            </svg>
+      <div class="skillsrow">
+        <!-- Language Skills -->
+        <div
+          data-tilt
+          data-tilt-max="4"
+          data-tilt-glare="true"
+          data-tilt-max-glare="0.5"
+          class="js-tilt center-skills skills-first"
+        >
+          <div class="skill-bars">
+            <div class="bar">
+              <div class="info">
+                <span>JS</span>
+              </div>
+              <div class="progress-line js">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <span>Java</span>
+              </div>
+              <div class="progress-line java">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <span>Dart/Flutter</span>
+              </div>
+              <div class="progress-line dart">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <span>Python</span>
+              </div>
+              <div class="progress-line python">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <span>HTML/CSS</span>
+              </div>
+              <div class="progress-line htcs">
+                <span></span>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <h3 class="title">Java</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbarjava"></div>
-          </div>
-          <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle class="stroke" cx="60" cy="60" r="50" />
-            </svg>
-          </div>
-        </div>
-        <div class="card">
-          <h3 class="title">Dart</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbardart"></div>
-          </div>
-          <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle class="stroke" cx="60" cy="60" r="50" />
-            </svg>
-          </div>
-        </div>
-        <div class="card">
-          <h3 class="title">Python</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbarpy"></div>
-          </div>
-          <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle class="stroke" cx="60" cy="60" r="50" />
-            </svg>
+        <!-- Software Skills -->
+        <div
+          data-tilt
+          data-tilt-max="4"
+          data-tilt-glare="true"
+          data-tilt-max-glare="0.5"
+          class="js-tilt center-skills skills-second"
+        >
+          <div class="skill-bars">
+            <div class="bar">
+              <div class="info">
+                <span>VSCode</span>
+              </div>
+              <div class="progress-line vscode">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <span>IntelliJ</span>
+              </div>
+              <div class="progress-line intellij">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <span>Github</span>
+              </div>
+              <div class="progress-line github">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <span>Repl.it</span>
+              </div>
+              <div class="progress-line repl">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <span>Firebase</span>
+              </div>
+              <div class="progress-line firebase">
+                <span></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- /END Skills 1 Section -->
-
-    <!-- **** Projects Section **** -->
-    <!-- <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">My skills 2</h2> -->
-
-          <!-- Notice: each .row is a project -->
-          <!-- <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">DART</h3>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                  <div class="w3-light-grey w3-round">
-                    <div class="w3-container w3-grey w3-center" style="width:55%">Knowledge</div>
-                  </div>
-                  <p> </p>
-                  <div class="w3-light-grey w3-round">
-                    <div class="w3-container w3-grey w3-center" style="width:75%">Comfort</div>
-                  </div>
-                  <p> </p>
-                  <div class="w3-light-grey w3-round">
-                    <div class="w3-container w3-grey w3-center" style="width:75%">Ability</div>
-                  </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <!--<div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">DART</h3>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="./assets/P3THMB.png" target="_blank">
-                </a>
-              </div>
-            </div>
-          </div> -->
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <!--<div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">DART</h3>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="./assets/P3THMB.png" target="_blank">
-                </a>
-              </div>
-            </div>
-          </div> -->
-          <!-- /END Project -->
-        <!-- </div>
-      </div>
-    </section> -->
-    <!-- /END Projects Section -->
 
     <!-- **** Projects Section **** -->
     <section id="projects">
@@ -251,7 +238,7 @@
                 <div>
                   <p class="mb-4">
                     A fun game, made with Flutter, designed to be an easy way to
-                    distract you while still being easy to use. It also measured
+                    distract you while still being easy to use. It also measures
                     your reaction and association time to give you interesting
                     feedback.
                   </p>
@@ -309,8 +296,7 @@
                     Minecraft and connecting to servers without having to start
                     the game itself. With it, you can move, access your
                     inventory, send messages and commands, all of it on a
-                    website. The source code is public, which means you can
-                    build it yourself for 100% privacy.
+                    website.
                   </p>
                 </div>
                 <a
@@ -460,6 +446,13 @@
           © 2021 - Template developed by
           <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
             >Jacobo Martínez</a
+          >
+          and hugely modified by
+          <a
+            rel="noreferrer"
+            href="https://github.com/pocoyo-dev"
+            target="_blank"
+            >PocoyoDev</a
           >
         </p>
       </div>

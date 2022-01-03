@@ -16,17 +16,25 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+@import "./sass/sections/skills";
+
+@import "./sass/data/skills-lang";
+@import "./sass/data/skills-sw";
 
 .skip-to-content-link {
-    background: #e77e23;
-    height: 30px;
-    left: 50%;
-    padding: 8px;
-    position: absolute;
-    transform: translateY(-100%);
-    transition: transform 0.3s;
-  }
-  
-  .skip-to-content-link:focus {
-    transform: translateY(0%);
-  }
+  background: linear-gradient(
+    135deg,
+    $primary-color 0%,
+    $secondary-color 100%
+  );;
+  height: 30px;
+  left: 50%;
+  padding: 60px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(0%);
+}

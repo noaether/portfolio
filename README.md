@@ -1,11 +1,6 @@
 # Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/simplefolio?color=blue)](https://github.com/cobidev/simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/simplefolio)
 
-## A minimal portfolio template for Developers!
-
-<h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Simplefolio" width="600px" />
-  <br>
-</h2>
+## A minimal portfolio template for Developers
 
 ## Features
 
@@ -35,7 +30,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
-```
+```terminal
 node@v16.4.2 or higher
 npm@7.18.1 or higher
 git@2.30.1 or higher
@@ -43,7 +38,7 @@ git@2.30.1 or higher
 
 Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
 
-```
+```terminal
 yarn@v1.22.10 or higher
 ```
 
@@ -96,13 +91,9 @@ $ sudo npm install --unsafe-perm=true --allow-root
 
 Once your server has started, go to this url `http://localhost:1234/` to see the portfolio locally. It should look like the below screenshot.
 
-<h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.png" alt="Simplefolio" width="100%">
-</h2>
-
 ---
 
-## Template Instructions:
+## Template Instructions
 
 ### Step 1 - STRUCTURE
 

@@ -1,0 +1,30 @@
+.bar .progress-line.vscode span {
+  width: 95%;
+}
+.bar .progress-line.intellij span {
+  width: 75%;
+}
+.bar .progress-line.github span {
+  width: 85%;
+}
+.bar .progress-line.repl span {
+  width: 40%;
+}
+.bar .progress-line.firebase span {
+  width: 25%;
+}
+.progress-line.vscode span::after {
+  content: "95%";
+}
+.progress-line.intellij span::after {
+  content: "75%";
+}
+.progress-line.github span::after {
+  content: "85%";
+}
+.progress-line.repl span::after {
+  content: "40%";
+}
+.progress-line.firebase span::after {
+  content: "25%";
+}
