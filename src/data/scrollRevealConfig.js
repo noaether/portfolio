@@ -53,7 +53,7 @@ export const targetElements = [
   {
     element: ".skills-second",
     animation: {
-      delay: 1200,
+      delay: 600,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
