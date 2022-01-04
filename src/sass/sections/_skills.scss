@@ -1,8 +1,3 @@
-.skillsrow {
-  display: flex;
-  width: 100%;
-  place-items: center;
-}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -10,8 +5,12 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.skillsrow {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+}
 .center-skills {
-  display: grid;
   height: 100%;
   place-items: center;
   margin: auto;
@@ -75,9 +74,6 @@
   background: #6665ee;
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
-.progress-line span::before {
-
-}
 .progress-line span::after {
   opacity: 1;
   // Text box
@@ -95,5 +91,31 @@
 @keyframes showText2 {
   100% {
     opacity: 1;
+  }
+}
+@media screen and (max-width: 600px) {
+  .skillsrow { // Column
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+    background: #fff; // #fff
+    position: relative;
+  }
+  .center-skills { // Container for each card
+    height: 100%;
+    place-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+    background: #fff; // #fff
+  }
+  .skill-bars { // Card with the actual data
+    width: 100%;
+    padding: 25px 30px;
+    background: #fff; // #fff
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
   }
 }
