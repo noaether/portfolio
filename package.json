@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
-  "source": "src/index.html",
+  "source": ["src/index.html", "src/thnoogle.html"],
   "build": "parcel build",
   "scripts": {
     "start": "parcel",
