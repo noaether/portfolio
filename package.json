@@ -6,8 +6,8 @@
   "source": ["src/index.html", "src/thnoogle.html"],
   "build": "parcel build",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel ./src/**.html",
+    "build": "parcel build ./src/**.html"
   },
   "repository": {
     "type": "git",
