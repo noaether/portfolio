@@ -29,7 +29,7 @@ jobs:
 
     # Build project
     - name: Build project
-      run: npm run-script build
+      run: npm run-script build-ubuntu
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.1
       with:

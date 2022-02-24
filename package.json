@@ -7,7 +7,8 @@
   "build": "parcel build",
   "scripts": {
     "start": "parcel ./src/**.html",
-    "build": "parcel build ./src/**.html"
+    "build-windows": "parcel build ./src/**.html && copy C:\\Users\\Noa\\Documents\\Dev\\simplefolio\\src\\_headers dist /Y",
+    "build-linux": "parcel build ./src/**.html && cp src/_headers dist/ "
   },
   "repository": {
     "type": "git",
