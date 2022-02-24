@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'self' script-src 'self' https://static.copyrighted.com/ https://unpkg.com/ style-src 'self' https://cdnjs.cloudflare.com/ https://fonts.googleapis.com/ img-src https://static.copyrighted.com/ https://img.shields.io/
+  Content-Security-Policy: script-src 'self' https://static.copyrighted.com/ https://unpkg.com/ style-src 'self' https://cdnjs.cloudflare.com/ https://fonts.googleapis.com/ img-src https://static.copyrighted.com/ https://img.shields.io/ font-src https://fonts.gstatic.com/
   Referrer-Policy: no-referrer
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
