@@ -30,17 +30,3 @@ jobs:
     # Build project
     - name: Build project
       run: npm run-script build-linux
-    - name: Deploy to Netlify
-      uses: nwtgck/actions-netlify@v1.1
-      with:
-        publish-dir: './dist'
-        production-branch: main
-        github-token: ${{ secrets.GH_TOKEN }}
-        deploy-message: "Deploy from GitHub Actions"
-        enable-pull-request-comment: false
-        enable-commit-comment: true
-        overwrites-pull-request-comment: true
-      env:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      timeout-minutes: 1
